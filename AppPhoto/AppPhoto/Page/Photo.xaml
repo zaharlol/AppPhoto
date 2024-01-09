@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppPhoto.Page.Photo">
+    <ContentPage.Content>
+        <StackLayout x:Name="stackL" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Label Text="Добро пожаловать в галерею!" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="entryPin"  BackgroundColor = "Color.AliceBlue" Margin = "30, 10" Placeholder = "Ваш PIN"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

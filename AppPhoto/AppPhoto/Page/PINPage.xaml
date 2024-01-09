@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppPhoto.Page.PINPage">
+    <ContentPage.Content>
+        <StackLayout x:Name="stackL" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Label Text="Добро пожаловать в галерею!" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="entryPin"  BackgroundColor = "Color.AliceBlue" Margin = "30, 10" Placeholder = "Ваш PIN"/>
+            <Button Text = "Сохранить" Margin = "30, 10" BackgroundColor = "Color.Silver" x:Name="buttonClick" Clicked="ManualButtonClicked"/>
+            <Button Text = "Войти" Margin = "30, 10" BackgroundColor = "Color.Silver" x:Name="buttonIn" Clicked="ButtonIn_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
